@@ -1,0 +1,4 @@
+PhysicalProperties:
+  surfaceAirDensity_kgpm3: 1.225
+  gasConstant_JpkgK: 287.052874
+  surfaceGravitationalAcceleration_mps2: 9.80665
