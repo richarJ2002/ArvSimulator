@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGRand.a CMakeFiles/GRand.dir/ConstantDefs/GRand_globalVariables.c.o CMakeFiles/GRand.dir/PublicFunctions/GRand_gaussianDistribution.c.o CMakeFiles/GRand.dir/PublicFunctions/GRand_uniformDistributon.c.o
+/usr/bin/ranlib libGRand.a
