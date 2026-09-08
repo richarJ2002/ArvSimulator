@@ -377,19 +377,19 @@ GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul.c.s"
 	cd /home/richar-j/personal/ArvSimulator/Build/GenericLibraries/GMath && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/GMath_quaternion2Eul.c -o CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul.c.s
 
-GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o: GenericLibraries/GMath/CMakeFiles/GMath.dir/flags.make
-GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o: /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/Gmath_quaternionConjugate.c
-GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o: GenericLibraries/GMath/CMakeFiles/GMath.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richar-j/personal/ArvSimulator/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o"
-	cd /home/richar-j/personal/ArvSimulator/Build/GenericLibraries/GMath && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o -MF CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o.d -o CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o -c /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/Gmath_quaternionConjugate.c
+GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o: GenericLibraries/GMath/CMakeFiles/GMath.dir/flags.make
+GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o: /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/GMath_quaternionConjugate.c
+GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o: GenericLibraries/GMath/CMakeFiles/GMath.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richar-j/personal/ArvSimulator/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o"
+	cd /home/richar-j/personal/ArvSimulator/Build/GenericLibraries/GMath && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o -MF CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o.d -o CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o -c /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/GMath_quaternionConjugate.c
 
-GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.i"
-	cd /home/richar-j/personal/ArvSimulator/Build/GenericLibraries/GMath && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/Gmath_quaternionConjugate.c > CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.i
+GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.i"
+	cd /home/richar-j/personal/ArvSimulator/Build/GenericLibraries/GMath && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/GMath_quaternionConjugate.c > CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.i
 
-GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.s"
-	cd /home/richar-j/personal/ArvSimulator/Build/GenericLibraries/GMath && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/Gmath_quaternionConjugate.c -o CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.s
+GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.s"
+	cd /home/richar-j/personal/ArvSimulator/Build/GenericLibraries/GMath && gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/GMath_quaternionConjugate.c -o CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.s
 
 GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRateCalc.c.o: GenericLibraries/GMath/CMakeFiles/GMath.dir/flags.make
 GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRateCalc.c.o: /home/richar-j/personal/ArvSimulator/Source/GenericLibraries/GMath/PublicFunctions/GMath_quaternionFrameRateCalc.c
@@ -527,7 +527,7 @@ GMath_OBJECTS = \
 "CMakeFiles/GMath.dir/PublicFunctions/GMath_matSub.c.o" \
 "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Dcm.c.o" \
 "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul.c.o" \
-"CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o" \
+"CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o" \
 "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRateCalc.c.o" \
 "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRotation.c.o" \
 "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionMul.c.o" \
@@ -562,7 +562,7 @@ GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/P
 GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_matSub.c.o
 GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Dcm.c.o
 GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul.c.o
-GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o
+GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o
 GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRateCalc.c.o
 GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRotation.c.o
 GenericLibraries/GMath/libGMath.a: GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionMul.c.o

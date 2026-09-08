@@ -1,0 +1,9 @@
+add_library(Trajectory
+  PrivateFunctions/Trajectory_findAerodynamicCoefficients.c
+  PrivateFunctions/Trajectory_findAerodynamicForces.c
+  PrivateFunctions/Trajectory_findAtmosphericDensity.c
+  PrivateFunctions/Trajectory_findFlightPathAngleRate.c
+  PrivateFunctions/Trajectory_findGravityAcceleration.c
+  PrivateFunctions/Trajectory_findVelocityRate.c
+  PublicFunctions/Trajectory_updateState.c
+)

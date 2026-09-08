@@ -658,6 +658,30 @@ PublicFunctions/GMath_quaternion2Eul.c.s:
 	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul.c.s
 .PHONY : PublicFunctions/GMath_quaternion2Eul.c.s
 
+PublicFunctions/GMath_quaternionConjugate.o: PublicFunctions/GMath_quaternionConjugate.c.o
+.PHONY : PublicFunctions/GMath_quaternionConjugate.o
+
+# target to build an object file
+PublicFunctions/GMath_quaternionConjugate.c.o:
+	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o
+.PHONY : PublicFunctions/GMath_quaternionConjugate.c.o
+
+PublicFunctions/GMath_quaternionConjugate.i: PublicFunctions/GMath_quaternionConjugate.c.i
+.PHONY : PublicFunctions/GMath_quaternionConjugate.i
+
+# target to preprocess a source file
+PublicFunctions/GMath_quaternionConjugate.c.i:
+	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.i
+.PHONY : PublicFunctions/GMath_quaternionConjugate.c.i
+
+PublicFunctions/GMath_quaternionConjugate.s: PublicFunctions/GMath_quaternionConjugate.c.s
+.PHONY : PublicFunctions/GMath_quaternionConjugate.s
+
+# target to generate assembly for a file
+PublicFunctions/GMath_quaternionConjugate.c.s:
+	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.s
+.PHONY : PublicFunctions/GMath_quaternionConjugate.c.s
+
 PublicFunctions/GMath_quaternionFrameRateCalc.o: PublicFunctions/GMath_quaternionFrameRateCalc.c.o
 .PHONY : PublicFunctions/GMath_quaternionFrameRateCalc.o
 
@@ -850,30 +874,6 @@ PublicFunctions/GMath_vectorSub.c.s:
 	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/GMath_vectorSub.c.s
 .PHONY : PublicFunctions/GMath_vectorSub.c.s
 
-PublicFunctions/Gmath_quaternionConjugate.o: PublicFunctions/Gmath_quaternionConjugate.c.o
-.PHONY : PublicFunctions/Gmath_quaternionConjugate.o
-
-# target to build an object file
-PublicFunctions/Gmath_quaternionConjugate.c.o:
-	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o
-.PHONY : PublicFunctions/Gmath_quaternionConjugate.c.o
-
-PublicFunctions/Gmath_quaternionConjugate.i: PublicFunctions/Gmath_quaternionConjugate.c.i
-.PHONY : PublicFunctions/Gmath_quaternionConjugate.i
-
-# target to preprocess a source file
-PublicFunctions/Gmath_quaternionConjugate.c.i:
-	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.i
-.PHONY : PublicFunctions/Gmath_quaternionConjugate.c.i
-
-PublicFunctions/Gmath_quaternionConjugate.s: PublicFunctions/Gmath_quaternionConjugate.c.s
-.PHONY : PublicFunctions/Gmath_quaternionConjugate.s
-
-# target to generate assembly for a file
-PublicFunctions/Gmath_quaternionConjugate.c.s:
-	cd /home/richar-j/personal/ArvSimulator/Build && $(MAKE) $(MAKESILENT) -f GenericLibraries/GMath/CMakeFiles/GMath.dir/build.make GenericLibraries/GMath/CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.s
-.PHONY : PublicFunctions/Gmath_quaternionConjugate.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -949,6 +949,9 @@ help:
 	@echo "... PublicFunctions/GMath_quaternion2Eul.o"
 	@echo "... PublicFunctions/GMath_quaternion2Eul.i"
 	@echo "... PublicFunctions/GMath_quaternion2Eul.s"
+	@echo "... PublicFunctions/GMath_quaternionConjugate.o"
+	@echo "... PublicFunctions/GMath_quaternionConjugate.i"
+	@echo "... PublicFunctions/GMath_quaternionConjugate.s"
 	@echo "... PublicFunctions/GMath_quaternionFrameRateCalc.o"
 	@echo "... PublicFunctions/GMath_quaternionFrameRateCalc.i"
 	@echo "... PublicFunctions/GMath_quaternionFrameRateCalc.s"
@@ -973,9 +976,6 @@ help:
 	@echo "... PublicFunctions/GMath_vectorSub.o"
 	@echo "... PublicFunctions/GMath_vectorSub.i"
 	@echo "... PublicFunctions/GMath_vectorSub.s"
-	@echo "... PublicFunctions/Gmath_quaternionConjugate.o"
-	@echo "... PublicFunctions/Gmath_quaternionConjugate.i"
-	@echo "... PublicFunctions/Gmath_quaternionConjugate.s"
 .PHONY : help
 
 
