@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGUtilities.a CMakeFiles/GUtilities.dir/DataStructs/GUtilities_stateStruct.c.o CMakeFiles/GUtilities.dir/PrivateFunctions/GUtilities_sigintHandle.c.o CMakeFiles/GUtilities.dir/PublicFunctions/GUtilities_init.c.o
+/usr/bin/ranlib libGUtilities.a

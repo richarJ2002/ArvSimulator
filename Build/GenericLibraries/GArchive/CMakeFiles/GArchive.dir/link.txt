@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGArchive.a CMakeFiles/GArchive.dir/PrivateFunctions/GArchive_addColArray.c.o CMakeFiles/GArchive.dir/PublicFunctions/GArchive_addCol.c.o CMakeFiles/GArchive.dir/PublicFunctions/GArchive_addVal.c.o CMakeFiles/GArchive.dir/PublicFunctions/GArchive_checkFileExists.c.o CMakeFiles/GArchive.dir/PublicFunctions/GArchive_close.c.o CMakeFiles/GArchive.dir/PublicFunctions/GArchive_init.c.o CMakeFiles/GArchive.dir/PublicFunctions/GArchive_writeHeader.c.o CMakeFiles/GArchive.dir/PublicFunctions/GArchive_writeLine.c.o
+/usr/bin/ranlib libGArchive.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGTime.a CMakeFiles/GTime.dir/PublicFunctions/GTime_calenderToUnix.c.o
+/usr/bin/ranlib libGTime.a

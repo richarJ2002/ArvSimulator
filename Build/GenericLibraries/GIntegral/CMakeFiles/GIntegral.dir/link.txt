@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGIntegral.a CMakeFiles/GIntegral.dir/PublicFunctions/GIntegral_3x1Double.c.o CMakeFiles/GIntegral.dir/PublicFunctions/GIntegral_4x1Double.c.o
+/usr/bin/ranlib libGIntegral.a

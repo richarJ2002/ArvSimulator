@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGLegPoly.a CMakeFiles/GLegPoly.dir/PublicFunctions/GLegPoly_associatedLegendreArrayPolynomials.c.o CMakeFiles/GLegPoly.dir/PublicFunctions/GLegPoly_associatedLegendreArrayPolynomialsDerivitive.c.o CMakeFiles/GLegPoly.dir/PublicFunctions/GLegPoly_findSchmidtQuasiNormFactors.c.o CMakeFiles/GLegPoly.dir/PublicFunctions/GLegPoly_legendreArrayPolynomials.c.o CMakeFiles/GLegPoly.dir/PublicFunctions/GLegPoly_legendrePolynomial.c.o
+/usr/bin/ranlib libGLegPoly.a
