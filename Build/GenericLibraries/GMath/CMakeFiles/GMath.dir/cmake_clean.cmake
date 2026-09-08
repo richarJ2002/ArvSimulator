@@ -43,6 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Dcm.c.o.d"
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul.c.o"
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternion2Eul.c.o.d"
+  "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o"
+  "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionConjugate.c.o.d"
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRateCalc.c.o"
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRateCalc.c.o.d"
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_quaternionFrameRotation.c.o"
@@ -59,8 +61,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_vectorNorm.c.o.d"
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_vectorSub.c.o"
   "CMakeFiles/GMath.dir/PublicFunctions/GMath_vectorSub.c.o.d"
-  "CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o"
-  "CMakeFiles/GMath.dir/PublicFunctions/Gmath_quaternionConjugate.c.o.d"
   "libGMath.a"
   "libGMath.pdb"
 )

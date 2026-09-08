@@ -16,9 +16,9 @@
 set -e
 
 # Remove items from Build Environment Folder
-if [[ -d BuildEnvironment/CMakeFiles ]]; then
-  echo "[MSG] Removing contents within BuildEnvironment..."
-  rm -r BuildEnvironment/*
+if [[ -d Build/CMakeFiles ]]; then
+  echo "[MSG] Removing contents within Build..."
+  rm -r Build/*
   echo "[...] Contents removed"
 else
   echo "[MSG] No contents to remove"
