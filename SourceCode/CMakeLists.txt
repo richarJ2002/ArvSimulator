@@ -1,5 +1,5 @@
 # Set minimum required version of cmake
-cmake_minimum_required(VERSION 4.0.0)
+cmake_minimum_required(VERSION 3.28.3)
 
 # Set project name
 project(ArvSim)
@@ -29,8 +29,13 @@ add_subdirectory(${GENERIC_PATH}/GArchive)
 add_subdirectory(${GENERIC_PATH}/GConversions)
 add_subdirectory(${GENERIC_PATH}/GIntegral)
 add_subdirectory(${GENERIC_PATH}/GLegPoly)
-add_subdirectory(${GENERIC_PATH}/GParser)
+add_subdirectory(${GENERIC_PATH}/GParserIni)
+add_subdirectory(${GENERIC_PATH}/GParserJson)
+add_subdirectory(${GENERIC_PATH}/GParserYaml)
 add_subdirectory(${GENERIC_PATH}/GRand)
 add_subdirectory(${GENERIC_PATH}/GMath)
 add_subdirectory(${GENERIC_PATH}/GTime)
 add_subdirectory(${GENERIC_PATH}/GUtilities)
+
+# Tests
+add_subdirectory(${SRC_DIRECTORY}/Tests)
