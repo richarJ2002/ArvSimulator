@@ -1,0 +1,19 @@
+TestSection1:
+  int8_val: -128
+  int_val: -2147483648
+  uint_val: 4294967295
+  uint8_val: 255
+  uint16_val: 65535
+  float_val: 3.14159
+  double_val: 2.718281828459045
+  string_val: "Hello, World!"
+
+TestSection2:
+  int8_val2: 127
+  int_val2: 2147483647
+  uint_val2: 0
+  uint8_val2: 0
+  uint16_val2: 0
+  float_val2: -1.5
+  double_val2: -2.5
+  string_val2: "Test String 2"

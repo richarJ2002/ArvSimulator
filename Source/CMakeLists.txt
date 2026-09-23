@@ -29,8 +29,16 @@ add_subdirectory(${GENERIC_PATH}/GArchive)
 add_subdirectory(${GENERIC_PATH}/GConversions)
 add_subdirectory(${GENERIC_PATH}/GIntegral)
 add_subdirectory(${GENERIC_PATH}/GLegPoly)
-add_subdirectory(${GENERIC_PATH}/GParser)
+add_subdirectory(${GENERIC_PATH}/GParserIni)
+add_subdirectory(${GENERIC_PATH}/GParserJson)
+add_subdirectory(${GENERIC_PATH}/GParserYaml)
 add_subdirectory(${GENERIC_PATH}/GRand)
 add_subdirectory(${GENERIC_PATH}/GMath)
 add_subdirectory(${GENERIC_PATH}/GTime)
 add_subdirectory(${GENERIC_PATH}/GUtilities)
+<<<<<<< HEAD:Source/CMakeLists.txt
+=======
+
+# Tests
+add_subdirectory(${SRC_DIRECTORY}/Tests)
+>>>>>>> ARV-00_parser_test:SourceCode/CMakeLists.txt
